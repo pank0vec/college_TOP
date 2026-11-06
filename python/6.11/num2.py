@@ -1,12 +1,12 @@
 import random
 
-# список случайных чисел
+
 
 a = [random.randint(-10, 10) for i in range(10)]
 
 print("Исходный список:", a)
 
-# Список четных чисел
+
 chet = []
 
 for i in a:
@@ -15,7 +15,7 @@ for i in a:
 
 print("Четные числа:", chet)
 
-# Список нечетных чисел
+
 nechet = []
 
 for i in a:
@@ -24,7 +24,7 @@ for i in a:
 
 print("Нечетные числа:", nechet)
 
-# Список отрицательных чисел
+
 otrav = []
 
 for i in a:
@@ -33,7 +33,7 @@ for i in a:
 
 print("Отрицательные числа:", otrav)
 
-# Список положительных чисел
+
 poloj = []
 
 for i in a:
