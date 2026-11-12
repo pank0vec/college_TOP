@@ -1,0 +1,737 @@
+{
+  "version": "32.7.1",
+  "pages": [
+    {
+      "id": "3aW-uy_VfXZ9uWK9Ek63",
+      "name": "Страница-1",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-3",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-1",
+          "target": "1nNE_RezL2AZNqo1KYJa-2"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-1",
+          "type": "node",
+          "parent": "1",
+          "label": "начало"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-5",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-2",
+          "target": "1nNE_RezL2AZNqo1KYJa-4"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-2",
+          "type": "node",
+          "parent": "1",
+          "label": "count = 0; i = 1"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-7",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-4",
+          "target": "1nNE_RezL2AZNqo1KYJa-6"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-9",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-4",
+          "target": "1nNE_RezL2AZNqo1KYJa-8"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-4",
+          "type": "node",
+          "parent": "1",
+          "label": "i<=100?",
+          "html": "i&lt;=<span style=\"text-decoration-line: inherit; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));\">100?</span>"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-16",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-6"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-18",
+          "type": "edge",
+          "parent": "1",
+          "target": "1nNE_RezL2AZNqo1KYJa-17"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-6",
+          "type": "node",
+          "parent": "1",
+          "label": "i % 2 = 0?"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-11",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-8",
+          "target": "1nNE_RezL2AZNqo1KYJa-10"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-8",
+          "type": "node",
+          "parent": "1",
+          "label": "вывод count(50)"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-10",
+          "type": "node",
+          "parent": "1",
+          "label": "конец",
+          "html": "конец<div><br></div>"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-12",
+          "type": "node",
+          "parent": "1",
+          "label": "count = count + 1"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-21",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-17",
+          "target": "1nNE_RezL2AZNqo1KYJa-4"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-17",
+          "type": "node",
+          "parent": "1",
+          "label": "i = i + 1"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-20",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-12",
+          "target": "1nNE_RezL2AZNqo1KYJa-17"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-22",
+          "type": "node",
+          "parent": "1",
+          "label": "N"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-23",
+          "type": "node",
+          "parent": "1",
+          "label": "Y"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-24",
+          "type": "node",
+          "parent": "1",
+          "label": "N"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-25",
+          "type": "node",
+          "parent": "1",
+          "label": "Y"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-28",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-26",
+          "target": "1nNE_RezL2AZNqo1KYJa-27"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-26",
+          "type": "node",
+          "parent": "1",
+          "label": "начало"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-30",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-27",
+          "target": "1nNE_RezL2AZNqo1KYJa-29"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-27",
+          "type": "node",
+          "parent": "1",
+          "label": "ввод k"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-29",
+          "type": "node",
+          "parent": "1",
+          "label": "i = 1"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-31",
+          "type": "node",
+          "parent": "1",
+          "label": "i&lt;=10?"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-32",
+          "type": "node",
+          "parent": "1",
+          "label": "конец"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-33",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-31",
+          "target": "1nNE_RezL2AZNqo1KYJa-32"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-34",
+          "type": "node",
+          "parent": "1",
+          "label": "N"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-38",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-35",
+          "target": "1nNE_RezL2AZNqo1KYJa-37"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-35",
+          "type": "node",
+          "parent": "1",
+          "label": "Выход k x i"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-36",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-31",
+          "target": "1nNE_RezL2AZNqo1KYJa-35"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-39",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-37",
+          "type": "node",
+          "parent": "1",
+          "label": "i = i + 1"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-40",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-29",
+          "target": "1nNE_RezL2AZNqo1KYJa-31"
+        },
+        {
+          "id": "1nNE_RezL2AZNqo1KYJa-41",
+          "type": "edge",
+          "parent": "1",
+          "source": "1nNE_RezL2AZNqo1KYJa-23",
+          "target": "1nNE_RezL2AZNqo1KYJa-23"
+        },
+        {
+          "id": "lNPh0cX_F_YFX2EUrO-o-3",
+          "type": "edge",
+          "parent": "1",
+          "source": "lNPh0cX_F_YFX2EUrO-o-1",
+          "target": "lNPh0cX_F_YFX2EUrO-o-2"
+        },
+        {
+          "id": "lNPh0cX_F_YFX2EUrO-o-1",
+          "type": "node",
+          "parent": "1",
+          "label": "начало"
+        },
+        {
+          "id": "lNPh0cX_F_YFX2EUrO-o-5",
+          "type": "edge",
+          "parent": "1",
+          "source": "lNPh0cX_F_YFX2EUrO-o-2",
+          "target": "lNPh0cX_F_YFX2EUrO-o-4"
+        },
+        {
+          "id": "lNPh0cX_F_YFX2EUrO-o-2",
+          "type": "node",
+          "parent": "1",
+          "label": "открыть сайт"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-1",
+          "type": "edge",
+          "parent": "1",
+          "source": "lNPh0cX_F_YFX2EUrO-o-4",
+          "target": "lNPh0cX_F_YFX2EUrO-o-6"
+        },
+        {
+          "id": "lNPh0cX_F_YFX2EUrO-o-4",
+          "type": "node",
+          "parent": "1",
+          "label": "ввест логин и пароль"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-4",
+          "type": "edge",
+          "parent": "1",
+          "source": "lNPh0cX_F_YFX2EUrO-o-6",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-3"
+        },
+        {
+          "id": "lNPh0cX_F_YFX2EUrO-o-6",
+          "type": "node",
+          "parent": "1",
+          "label": "нажать кнопку Войти"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-12",
+          "type": "edge",
+          "parent": "1",
+          "target": "lNPh0cX_F_YFX2EUrO-o-4"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-2",
+          "type": "node",
+          "parent": "1",
+          "label": "Показать ошибку"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-9",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-3",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-6"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-10",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-3",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-2"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-3",
+          "type": "node",
+          "parent": "1",
+          "label": "Данные правильные?"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-13",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-6",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-11"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-6",
+          "type": "node",
+          "parent": "1",
+          "label": "Открыть личный кабинет"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-7",
+          "type": "node",
+          "parent": "1",
+          "label": "да"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-8",
+          "type": "node",
+          "parent": "1",
+          "label": "нет"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-11",
+          "type": "node",
+          "parent": "1",
+          "label": "конец",
+          "html": "конец<div><br></div>"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-16",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-14",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-15"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-14",
+          "type": "node",
+          "parent": "1",
+          "label": "начало"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-18",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-15"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-15",
+          "type": "node",
+          "parent": "1",
+          "label": "Ввести N"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-24",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-19",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-23"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-19",
+          "type": "node",
+          "parent": "1",
+          "label": "Max = X\ni = 2",
+          "html": "Max = X<div>i = 2</div>"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-22",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-21",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-19"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-21",
+          "type": "node",
+          "parent": "1",
+          "label": "Ввести первое число X"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-26",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-23",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-25"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-23",
+          "type": "node",
+          "parent": "1",
+          "label": "i &lt;= N?"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-28",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-25",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-27"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-25",
+          "type": "node",
+          "parent": "1",
+          "label": "нет"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-30",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-27",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-29"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-27",
+          "type": "node",
+          "parent": "1",
+          "label": "вывести Max"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-29",
+          "type": "node",
+          "parent": "1",
+          "label": "Конец"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-34",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-31",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-33"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-40",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-31",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-39"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-31",
+          "type": "node",
+          "parent": "1",
+          "label": "X Max?"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-38",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-32",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-23"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-32",
+          "type": "node",
+          "parent": "1",
+          "label": "i = i + 1"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-35",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-33",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-32"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-33",
+          "type": "node",
+          "parent": "1",
+          "label": "нет&nbsp;"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-42",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-39",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-32"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-39",
+          "type": "node",
+          "parent": "1",
+          "label": "Max = x"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-41",
+          "type": "node",
+          "parent": "1",
+          "label": "ДА"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-3",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-43",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-31"
+        },
+        {
+          "id": "WkOc7ucGHE1xXL8ZAb6u-43",
+          "type": "node",
+          "parent": "1",
+          "label": "Ввести следующее число x"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-2",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-43",
+          "target": "WkOc7ucGHE1xXL8ZAb6u-43"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-4",
+          "type": "node",
+          "parent": "1",
+          "label": "ДА"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-5",
+          "type": "edge",
+          "parent": "1",
+          "source": "WkOc7ucGHE1xXL8ZAb6u-23"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-33",
+          "type": "edge",
+          "parent": "1",
+          "source": "-w_vWoPwNGSmNM-cqfFy-7",
+          "target": "-w_vWoPwNGSmNM-cqfFy-8"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-7",
+          "type": "node",
+          "parent": "1",
+          "label": "начало"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-34",
+          "type": "edge",
+          "parent": "1",
+          "source": "-w_vWoPwNGSmNM-cqfFy-8",
+          "target": "-w_vWoPwNGSmNM-cqfFy-11"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-8",
+          "type": "node",
+          "parent": "1",
+          "label": "Ввести N"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-36",
+          "type": "edge",
+          "parent": "1",
+          "source": "-w_vWoPwNGSmNM-cqfFy-10",
+          "target": "-w_vWoPwNGSmNM-cqfFy-12"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-10",
+          "type": "node",
+          "parent": "1",
+          "label": "max = x i = 2",
+          "html": "max = x i = 2<div><br></div>"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-35",
+          "type": "edge",
+          "parent": "1",
+          "source": "-w_vWoPwNGSmNM-cqfFy-11",
+          "target": "-w_vWoPwNGSmNM-cqfFy-10"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-11",
+          "type": "node",
+          "parent": "1",
+          "label": "Ввести первое число x"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-16",
+          "type": "edge",
+          "parent": "1",
+          "source": "-w_vWoPwNGSmNM-cqfFy-12",
+          "target": "-w_vWoPwNGSmNM-cqfFy-14"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-30",
+          "type": "edge",
+          "parent": "1",
+          "source": "-w_vWoPwNGSmNM-cqfFy-12",
+          "target": "-w_vWoPwNGSmNM-cqfFy-19"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-12",
+          "type": "node",
+          "parent": "1",
+          "label": "i&lt;=N"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-17",
+          "type": "edge",
+          "parent": "1",
+          "source": "-w_vWoPwNGSmNM-cqfFy-14",
+          "target": "-w_vWoPwNGSmNM-cqfFy-15"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-14",
+          "type": "node",
+          "parent": "1",
+          "label": "вывести max"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-15",
+          "type": "node",
+          "parent": "1",
+          "label": "конец"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-18",
+          "type": "node",
+          "parent": "1",
+          "label": "нет"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-31",
+          "type": "edge",
+          "parent": "1",
+          "source": "-w_vWoPwNGSmNM-cqfFy-19",
+          "target": "-w_vWoPwNGSmNM-cqfFy-20"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-19",
+          "type": "node",
+          "parent": "1",
+          "label": "ввести следующее число x"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-24",
+          "type": "edge",
+          "parent": "1",
+          "source": "-w_vWoPwNGSmNM-cqfFy-20",
+          "target": "-w_vWoPwNGSmNM-cqfFy-22"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-25",
+          "type": "edge",
+          "parent": "1",
+          "source": "-w_vWoPwNGSmNM-cqfFy-20",
+          "target": "-w_vWoPwNGSmNM-cqfFy-21"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-20",
+          "type": "node",
+          "parent": "1",
+          "label": "x &gt; mac?"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-23",
+          "type": "edge",
+          "parent": "1",
+          "source": "-w_vWoPwNGSmNM-cqfFy-21",
+          "target": "-w_vWoPwNGSmNM-cqfFy-22"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-21",
+          "type": "node",
+          "parent": "1",
+          "label": "max = x"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-29",
+          "type": "edge",
+          "parent": "1",
+          "source": "-w_vWoPwNGSmNM-cqfFy-22",
+          "target": "-w_vWoPwNGSmNM-cqfFy-12"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-22",
+          "type": "node",
+          "parent": "1",
+          "label": "i = i + 1"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-27",
+          "type": "node",
+          "parent": "1",
+          "label": "Да"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-28",
+          "type": "node",
+          "parent": "1",
+          "label": "Нет"
+        },
+        {
+          "id": "-w_vWoPwNGSmNM-cqfFy-32",
+          "type": "node",
+          "parent": "1",
+          "label": "да"
+        }
+      ]
+    }
+  ]
+}
